@@ -1,0 +1,25 @@
+{
+  "id": "/jinshou-site-management/",
+  "name": "迅翔興業｜現場管理",
+  "short_name": "現場管理",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f1f4f6",
+  "theme_color": "#102746",
+  "icons": [
+    {
+      "src": "icons/site-192-20261020.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/site-512-20261020.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
