@@ -127,4 +127,3 @@ async function mount(){const box=document.getElementById('sharedProfit');if(!box
 window.addEventListener('portal-session-ready',()=>{generation++;const box=document.getElementById('sharedProfit');if(box){const sid=box.dataset.site;box.outerHTML=window.profitPanel(sid);mount()}});
 window.addEventListener('DOMContentLoaded',()=>{new MutationObserver(mount).observe(document.getElementById('app'),{childList:true,subtree:true});mount();window.appSharedFeatures={...window.appSharedFeatures,'利益管理':true,'profits':true}});
 })();
-
